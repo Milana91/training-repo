@@ -1,0 +1,31 @@
+.skills
+    padding-top: 80px
+    padding-bottom: 84px
+    &-wrap
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &-item:hover,
+    &-item:active
+        border: 5px solid #ffd600
+    &-item
+        position: relative
+        display: flex
+        width: 416px
+        color: #000000
+        font-family: Montserrat
+        font-size: 20px
+        font-weight: 500
+        line-height: 28px
+        padding: 34px 23px
+        border: 5px solid #fff
+        &__img
+            margin-right: 20px
+            & img
+                max-width: 37px
+        &__text
+            margin-top: 6px
+    &-item:nth-child(2n+1)
+        margin-right: 190px
+    &-item:nth-child(-n+4)
+        margin-bottom: 97px

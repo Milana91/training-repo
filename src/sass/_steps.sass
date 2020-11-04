@@ -1,0 +1,47 @@
+.steps
+    background-color: #EEEEEE
+    padding-top: 80px
+    padding-bottom: 80px
+    &-list
+        display: flex
+        justify-content: space-between
+        &__item
+            padding-top: 24px
+            padding-left: 25px 
+            padding-right: 25px
+            max-width: 233px
+            display: flex
+            flex-direction: column
+            height: 310px
+            border: 5px solid #000000
+            position: relative
+            &-title
+                color: #000000
+                font-family: Montserrat
+                font-size: 24px
+                font-weight: 700
+                margin-bottom: 16px
+            &-text
+                color: #000000
+                font-family: Montserrat
+                font-size: 16px
+                font-weight: 500
+                line-height: 21px
+                max-width: 176px
+            &-img
+                display: flex
+                justify-content: flex-end
+                margin-bottom: 26px
+            &:not(:last-child)::after
+                content: ''
+                position: absolute
+                background-image: url(../img/steps/arrow.png)
+                left: 109%
+                top: 51%
+                width: 24px
+                height: 41px
+    & h2
+        margin-bottom: 57px
+    
+
+
